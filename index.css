@@ -1,0 +1,53 @@
+@import url(https://fonts.bunny.net/css?family=fira-code:300,400,500,600,700);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Fira Code", monospace;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main-container {
+  width: clamp(15rem, 100%, 50rem);
+  flex-grow: 1;
+  padding: 1rem;
+  border: 0.065rem solid #4441cc70;
+}
+
+.date-table {
+  border-collapse: collapse;
+  background-color: #4441cc30;
+    
+  th,
+  td {
+    border: 1px solid #4441cc70;
+    height: 2rem;
+    padding: 0.25rem;
+    font-weight: 600;
+    border-radius: 0.5rem;
+    color: #4441cc;
+  }
+}
+
+.receipt-table {
+    width: 100%;
+  border-collapse: collapse;
+  background-color: #4441cc30;
+    
+  th,
+  td {
+    border: 1px solid #4441cc70;
+    height: 2rem;
+    padding: 0.25rem;
+    font-weight: 600;
+    border-radius: 0.5rem;
+    color: #4441cc;
+  }
+}
